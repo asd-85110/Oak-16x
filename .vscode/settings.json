@@ -21,6 +21,5 @@
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.generator": "MinGW Makefiles",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "C_Cpp.dimInactiveRegions": true,
     "cmake.sourceDirectory": "D:/C_C++/Console/CMake"
 }

@@ -56,10 +56,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C_C++\projects\Oak-16x
+CMAKE_SOURCE_DIR = D:\C_C++\Console\CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C_C++\projects\Oak-16x\build
+CMAKE_BINARY_DIR = D:\projects\Oak-16x\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,16 +86,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_C++\projects\Oak-16x\build\CMakeFiles D:\C_C++\projects\Oak-16x\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles D:\projects\Oak-16x\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_C++\projects\Oak-16x\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_C++\projects\Oak-16x\build\CMakeFiles D:\C_C++\projects\Oak-16x\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles D:\projects\Oak-16x\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_C++\projects\Oak-16x\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
@@ -123,41 +123,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OAK16
+# Target rules for targets named JDKSHELL32
 
 # Build rule for target.
-OAK16: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OAK16
-.PHONY : OAK16
+JDKSHELL32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 JDKSHELL32
+.PHONY : JDKSHELL32
 
 # fast build rule for target.
-OAK16/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/build
-.PHONY : OAK16/fast
+JDKSHELL32/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/build
+.PHONY : JDKSHELL32/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+#=============================================================================
+# Target rules for targets named JDKSHELL64
+
+# Build rule for target.
+JDKSHELL64: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 JDKSHELL64
+.PHONY : JDKSHELL64
+
+# fast build rule for target.
+JDKSHELL64/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/build
+.PHONY : JDKSHELL64/fast
+
+main32.obj: main32.cpp.obj
+.PHONY : main32.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main32.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/main32.cpp.obj
+.PHONY : main32.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+main32.i: main32.cpp.i
+.PHONY : main32.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/main.cpp.i
-.PHONY : main.cpp.i
+main32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/main32.cpp.i
+.PHONY : main32.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+main32.s: main32.cpp.s
+.PHONY : main32.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/main.cpp.s
-.PHONY : main.cpp.s
+main32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/main32.cpp.s
+.PHONY : main32.cpp.s
+
+main64.obj: main64.cpp.obj
+.PHONY : main64.obj
+
+# target to build an object file
+main64.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/main64.cpp.obj
+.PHONY : main64.cpp.obj
+
+main64.i: main64.cpp.i
+.PHONY : main64.i
+
+# target to preprocess a source file
+main64.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/main64.cpp.i
+.PHONY : main64.cpp.i
+
+main64.s: main64.cpp.s
+.PHONY : main64.s
+
+# target to generate assembly for a file
+main64.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/main64.cpp.s
+.PHONY : main64.cpp.s
 
 # Help Target
 help:
@@ -168,10 +205,14 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... OAK16
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... JDKSHELL32
+	@echo ... JDKSHELL64
+	@echo ... main32.obj
+	@echo ... main32.i
+	@echo ... main32.s
+	@echo ... main64.obj
+	@echo ... main64.i
+	@echo ... main64.s
 .PHONY : help
 
 

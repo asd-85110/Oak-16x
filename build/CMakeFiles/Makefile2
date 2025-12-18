@@ -53,20 +53,22 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C_C++\projects\Oak-16x
+CMAKE_SOURCE_DIR = D:\C_C++\Console\CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C_C++\projects\Oak-16x\build
+CMAKE_BINARY_DIR = D:\projects\Oak-16x\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/OAK16.dir/all
+all: CMakeFiles/JDKSHELL32.dir/all
+all: CMakeFiles/JDKSHELL64.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/OAK16.dir/codegen
+codegen: CMakeFiles/JDKSHELL32.dir/codegen
+codegen: CMakeFiles/JDKSHELL64.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +76,73 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/OAK16.dir/clean
+clean: CMakeFiles/JDKSHELL32.dir/clean
+clean: CMakeFiles/JDKSHELL64.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/OAK16.dir
+# Target rules for target CMakeFiles/JDKSHELL32.dir
 
 # All Build rule for target.
-CMakeFiles/OAK16.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C_C++\projects\Oak-16x\build\CMakeFiles --progress-num=1,2 "Built target OAK16"
-.PHONY : CMakeFiles/OAK16.dir/all
+CMakeFiles/JDKSHELL32.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\Oak-16x\build\CMakeFiles --progress-num=1,2 "Built target JDKSHELL32"
+.PHONY : CMakeFiles/JDKSHELL32.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OAK16.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_C++\projects\Oak-16x\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OAK16.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_C++\projects\Oak-16x\build\CMakeFiles 0
-.PHONY : CMakeFiles/OAK16.dir/rule
+CMakeFiles/JDKSHELL32.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/JDKSHELL32.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles 0
+.PHONY : CMakeFiles/JDKSHELL32.dir/rule
 
 # Convenience name for target.
-OAK16: CMakeFiles/OAK16.dir/rule
-.PHONY : OAK16
+JDKSHELL32: CMakeFiles/JDKSHELL32.dir/rule
+.PHONY : JDKSHELL32
 
 # codegen rule for target.
-CMakeFiles/OAK16.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C_C++\projects\Oak-16x\build\CMakeFiles --progress-num=1,2 "Finished codegen for target OAK16"
-.PHONY : CMakeFiles/OAK16.dir/codegen
+CMakeFiles/JDKSHELL32.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\Oak-16x\build\CMakeFiles --progress-num=1,2 "Finished codegen for target JDKSHELL32"
+.PHONY : CMakeFiles/JDKSHELL32.dir/codegen
 
 # clean rule for target.
-CMakeFiles/OAK16.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OAK16.dir\build.make CMakeFiles/OAK16.dir/clean
-.PHONY : CMakeFiles/OAK16.dir/clean
+CMakeFiles/JDKSHELL32.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL32.dir\build.make CMakeFiles/JDKSHELL32.dir/clean
+.PHONY : CMakeFiles/JDKSHELL32.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/JDKSHELL64.dir
+
+# All Build rule for target.
+CMakeFiles/JDKSHELL64.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\Oak-16x\build\CMakeFiles --progress-num=3,4 "Built target JDKSHELL64"
+.PHONY : CMakeFiles/JDKSHELL64.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/JDKSHELL64.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/JDKSHELL64.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\Oak-16x\build\CMakeFiles 0
+.PHONY : CMakeFiles/JDKSHELL64.dir/rule
+
+# Convenience name for target.
+JDKSHELL64: CMakeFiles/JDKSHELL64.dir/rule
+.PHONY : JDKSHELL64
+
+# codegen rule for target.
+CMakeFiles/JDKSHELL64.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\projects\Oak-16x\build\CMakeFiles --progress-num=3,4 "Finished codegen for target JDKSHELL64"
+.PHONY : CMakeFiles/JDKSHELL64.dir/codegen
+
+# clean rule for target.
+CMakeFiles/JDKSHELL64.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JDKSHELL64.dir\build.make CMakeFiles/JDKSHELL64.dir/clean
+.PHONY : CMakeFiles/JDKSHELL64.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

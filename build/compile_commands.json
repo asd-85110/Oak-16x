@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/projects/Oak-16x/build",
+  "command": "D:\\forNuitka\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\JDKSHELL32.dir\\main32.cpp.obj -c D:\\C_C++\\Console\\CMake\\main32.cpp",
+  "file": "D:/C_C++/Console/CMake/main32.cpp",
+  "output": "CMakeFiles/JDKSHELL32.dir/main32.cpp.obj"
+},
+{
+  "directory": "D:/projects/Oak-16x/build",
+  "command": "D:\\forNuitka\\mingw64\\bin\\g++.exe   -O3 -DNDEBUG -o CMakeFiles\\JDKSHELL64.dir\\main64.cpp.obj -c D:\\C_C++\\Console\\CMake\\main64.cpp",
+  "file": "D:/C_C++/Console/CMake/main64.cpp",
+  "output": "CMakeFiles/JDKSHELL64.dir/main64.cpp.obj"
+}
+]

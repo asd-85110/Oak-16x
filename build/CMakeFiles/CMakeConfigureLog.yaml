@@ -5,14 +5,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.19044 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -27,6 +27,8 @@ events:
     names:
       - "mingw32-make.exe"
     candidate_directories:
+      - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -40,7 +42,6 @@ events:
       - "D:/forNuitka/LLVM/bin/"
       - "D:/Git/cmd/"
       - "D:/Signcode/"
-      - "D:/forNuitka/mingw64/bin/"
       - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Tencent/QQGameTempest/Hall.57938/"
       - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -49,53 +50,31 @@ events:
       - "/MinGW/bin/"
       - "/REGISTRY-NOTFOUND/MinGW/bin/"
     searched_directories:
-      - "C:/Program Files/Python313/Scripts/mingw32-make.exe.com"
-      - "C:/Program Files/Python313/Scripts/mingw32-make.exe"
-      - "C:/Program Files/Python313/mingw32-make.exe.com"
-      - "C:/Program Files/Python313/mingw32-make.exe"
-      - "C:/ProgramData/Oracle/Java/javapath/mingw32-make.exe.com"
-      - "C:/ProgramData/Oracle/Java/javapath/mingw32-make.exe"
-      - "C:/Windows/System32/mingw32-make.exe.com"
-      - "C:/Windows/System32/mingw32-make.exe"
-      - "C:/Windows/mingw32-make.exe.com"
-      - "C:/Windows/mingw32-make.exe"
-      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
-      - "C:/Windows/System32/wbem/mingw32-make.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
-      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
-      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
-      - "D:/CMake/bin/mingw32-make.exe.com"
-      - "D:/CMake/bin/mingw32-make.exe"
-      - "C:/Program Files/dotnet/mingw32-make.exe.com"
-      - "C:/Program Files/dotnet/mingw32-make.exe"
-      - "D:/forNuitka/LLVM/bin/mingw32-make.exe.com"
-      - "D:/forNuitka/LLVM/bin/mingw32-make.exe"
-      - "D:/Git/cmd/mingw32-make.exe.com"
-      - "D:/Git/cmd/mingw32-make.exe"
-      - "D:/Signcode/mingw32-make.exe.com"
-      - "D:/Signcode/mingw32-make.exe"
       - "D:/forNuitka/mingw64/bin/mingw32-make.exe.com"
     found: "D:/forNuitka/mingw64/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -104,7 +83,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -123,30 +102,34 @@ events:
     found: "D:/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "message-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: D:/forNuitka/mingw64/bin/gcc.exe 
@@ -160,14 +143,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        D:/C_C++/projects/Oak-16x/build/CMakeFiles/4.2.0-rc3/CompilerIdC/a.exe
+        D:/projects/Oak-16x/build/CMakeFiles/4.2.0-rc3/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -183,6 +166,7 @@ events:
       - "ar"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -204,29 +188,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -242,6 +230,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -263,29 +252,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -301,6 +294,7 @@ events:
       - "strip"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -322,29 +316,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -360,6 +358,7 @@ events:
       - "ld"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -381,29 +380,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -419,6 +422,7 @@ events:
       - "nm"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -440,29 +444,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -478,6 +486,7 @@ events:
       - "objdump"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -499,29 +508,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -537,6 +550,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -558,29 +572,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -596,6 +614,7 @@ events:
       - "readelf"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -617,29 +636,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -655,6 +678,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -676,29 +700,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -714,6 +742,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -735,29 +764,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -773,6 +806,7 @@ events:
       - "tapi"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -793,6 +827,9 @@ events:
       - "D:/forNuitka/mingw64/bin/tapi.com"
       - "D:/forNuitka/mingw64/bin/tapi.exe"
       - "D:/forNuitka/mingw64/bin/tapi"
+      - "D:/forNuitka/usr/bin/tapi.com"
+      - "D:/forNuitka/usr/bin/tapi.exe"
+      - "D:/forNuitka/usr/bin/tapi"
       - "C:/Program Files/Python313/Scripts/tapi.com"
       - "C:/Program Files/Python313/Scripts/tapi.exe"
       - "C:/Program Files/Python313/Scripts/tapi"
@@ -844,29 +881,33 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -885,6 +926,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -905,6 +947,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.2.com"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.2.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.2"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.2.com"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.2.exe"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.2"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.2.com"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.2.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.2"
@@ -956,6 +1001,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.com"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ar-15"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15"
@@ -1007,6 +1055,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ar15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ar15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ar15"
+      - "D:/forNuitka/usr/bin/gcc-ar15.com"
+      - "D:/forNuitka/usr/bin/gcc-ar15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ar15"
       - "C:/Program Files/Python313/Scripts/gcc-ar15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ar15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ar15"
@@ -1059,29 +1110,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1100,6 +1155,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -1120,6 +1176,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.2.com"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.2.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.2"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.2.com"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.2.exe"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.2"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.2.com"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.2.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.2"
@@ -1171,6 +1230,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.com"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15"
@@ -1222,6 +1284,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ranlib15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib15"
+      - "D:/forNuitka/usr/bin/gcc-ranlib15.com"
+      - "D:/forNuitka/usr/bin/gcc-ranlib15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ranlib15"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib15"
@@ -1274,23 +1339,27 @@ events:
     found: "D:/forNuitka/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1299,7 +1368,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1318,30 +1387,34 @@ events:
     found: "D:/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "message-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: D:/forNuitka/mingw64/bin/g++.exe 
@@ -1355,14 +1428,14 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        D:/C_C++/projects/Oak-16x/build/CMakeFiles/4.2.0-rc3/CompilerIdCXX/a.exe
+        D:/projects/Oak-16x/build/CMakeFiles/4.2.0-rc3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1381,6 +1454,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -1401,6 +1475,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.2.com"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.2.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.2"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.2.com"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.2.exe"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.2"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.2.com"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.2.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.2"
@@ -1452,6 +1529,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ar-15"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.com"
+      - "D:/forNuitka/usr/bin/gcc-ar-15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ar-15"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ar-15"
@@ -1503,6 +1583,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ar15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ar15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ar15"
+      - "D:/forNuitka/usr/bin/gcc-ar15.com"
+      - "D:/forNuitka/usr/bin/gcc-ar15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ar15"
       - "C:/Program Files/Python313/Scripts/gcc-ar15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ar15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ar15"
@@ -1555,29 +1638,33 @@ events:
     found: "D:/forNuitka/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1596,6 +1683,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -1616,6 +1704,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.2.com"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.2.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.2"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.2.com"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.2.exe"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.2"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.2.com"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.2.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.2"
@@ -1667,6 +1758,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib-15"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.com"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ranlib-15"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib-15"
@@ -1718,6 +1812,9 @@ events:
       - "D:/forNuitka/mingw64/bin/gcc-ranlib15.com"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib15.exe"
       - "D:/forNuitka/mingw64/bin/gcc-ranlib15"
+      - "D:/forNuitka/usr/bin/gcc-ranlib15.com"
+      - "D:/forNuitka/usr/bin/gcc-ranlib15.exe"
+      - "D:/forNuitka/usr/bin/gcc-ranlib15"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib15.com"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib15.exe"
       - "C:/Program Files/Python313/Scripts/gcc-ranlib15"
@@ -1770,23 +1867,27 @@ events:
     found: "D:/forNuitka/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1794,7 +1895,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
       - "D:/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -1810,6 +1911,8 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "D:/forNuitka/mingw64/bin/"
+      - "D:/forNuitka/usr/bin/"
       - "C:/Program Files/Python313/Scripts/"
       - "C:/Program Files/Python313/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -1823,10 +1926,12 @@ events:
       - "D:/forNuitka/LLVM/bin/"
       - "D:/Git/cmd/"
       - "D:/Signcode/"
-      - "D:/forNuitka/mingw64/bin/"
       - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Tencent/QQGameTempest/Hall.57938/"
       - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mingw64/bin/"
+      - "/mingw64/sbin/"
+      - "/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1836,87 +1941,53 @@ events:
       - "D:/CMake/bin/"
       - "D:/CMake/sbin/"
       - "D:/CMake/"
-      - "C:/Program Files (x86)/Oak-16x/bin/"
-      - "C:/Program Files (x86)/Oak-16x/sbin/"
-      - "C:/Program Files (x86)/Oak-16x/"
+      - "C:/Program Files (x86)/POWERSHELL32/bin/"
+      - "C:/Program Files (x86)/POWERSHELL32/sbin/"
+      - "C:/Program Files (x86)/POWERSHELL32/"
     searched_directories:
-      - "C:/Program Files/Python313/Scripts/windres.com"
-      - "C:/Program Files/Python313/Scripts/windres.exe"
-      - "C:/Program Files/Python313/Scripts/windres"
-      - "C:/Program Files/Python313/windres.com"
-      - "C:/Program Files/Python313/windres.exe"
-      - "C:/Program Files/Python313/windres"
-      - "C:/ProgramData/Oracle/Java/javapath/windres.com"
-      - "C:/ProgramData/Oracle/Java/javapath/windres.exe"
-      - "C:/ProgramData/Oracle/Java/javapath/windres"
-      - "C:/Windows/System32/windres.com"
-      - "C:/Windows/System32/windres.exe"
-      - "C:/Windows/System32/windres"
-      - "C:/Windows/windres.com"
-      - "C:/Windows/windres.exe"
-      - "C:/Windows/windres"
-      - "C:/Windows/System32/wbem/windres.com"
-      - "C:/Windows/System32/wbem/windres.exe"
-      - "C:/Windows/System32/wbem/windres"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
-      - "C:/Windows/System32/OpenSSH/windres.com"
-      - "C:/Windows/System32/OpenSSH/windres.exe"
-      - "C:/Windows/System32/OpenSSH/windres"
-      - "D:/CMake/bin/windres.com"
-      - "D:/CMake/bin/windres.exe"
-      - "D:/CMake/bin/windres"
-      - "C:/Program Files/dotnet/windres.com"
-      - "C:/Program Files/dotnet/windres.exe"
-      - "C:/Program Files/dotnet/windres"
-      - "D:/forNuitka/LLVM/bin/windres.com"
-      - "D:/forNuitka/LLVM/bin/windres.exe"
-      - "D:/forNuitka/LLVM/bin/windres"
-      - "D:/Git/cmd/windres.com"
-      - "D:/Git/cmd/windres.exe"
-      - "D:/Git/cmd/windres"
-      - "D:/Signcode/windres.com"
-      - "D:/Signcode/windres.exe"
-      - "D:/Signcode/windres"
       - "D:/forNuitka/mingw64/bin/windres.com"
     found: "D:/forNuitka/mingw64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\Python313\\Scripts\\"
-        - "C:\\Program Files\\Python313\\"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "D:\\CMake\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\forNuitka\\LLVM\\bin"
-        - "D:\\Git\\cmd"
-        - "D:\\Signcode\\"
         - "D:\\forNuitka\\mingw64\\bin"
-        - "C:\\Users\\Hao\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "D:\\forNuitka\\usr\\bin"
+        - "C:/Program Files/Python313/Scripts/"
+        - "C:\\Program Files\\Python313\\"
+        - "C:/ProgramData/Oracle/Java/javapath"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/CMake/bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:/forNuitka/LLVM/bin"
+        - "D:\\Git\\cmd"
+        - "D:/Signcode/"
+        - "D:\\forNuitka\\mingw64\\bin"
+        - "C:/Users/Hao/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57938\\"
-        - "C:\\Users\\Hao\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Oak-16x"
+        - "C:/Users/Hao/AppData/Local/Programs/Microsoft VS Code/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/POWERSHELL32"
       CMAKE_SYSTEM_PREFIX_PATH:
+        - "/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "D:/CMake"
-        - "C:/Program Files (x86)/Oak-16x"
+        - "C:/Program Files (x86)/POWERSHELL32"
   -
     kind: "try_compile-v1"
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2"
-      binary: "D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2"
+      source: "D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa"
+      binary: "D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1925,13 +1996,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2'
+        Change Dir: 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7155c/fast
-        D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7155c.dir\\build.make CMakeFiles/cmTC_7155c.dir/build
-        mingw32-make[1]: Entering directory 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2'
-        Building C object CMakeFiles/cmTC_7155c.dir/CMakeCCompilerABI.c.obj
-        D:\\forNuitka\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f67a4/fast
+        D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f67a4.dir\\build.make CMakeFiles/cmTC_f67a4.dir/build
+        mingw32-make[1]: Entering directory 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa'
+        Building C object CMakeFiles/cmTC_f67a4.dir/CMakeCCompilerABI.c.obj
+        D:\\forNuitka\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -1939,8 +2010,8 @@ events:
         Thread model: mcf
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (x86_64-mcf-seh-rev0, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7155c.dir\\'
-         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_7155c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccfFLmCK.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f67a4.dir\\'
+         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_f67a4.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccdEKfEE.s
         GNU C23 (x86_64-mcf-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
         
@@ -1957,14 +2028,14 @@ events:
          D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: cefa2ebeb692ed00af38e59eabc88438
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7155c.dir\\'
-         D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccfFLmCK.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f67a4.dir\\'
+         D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccdEKfEE.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../libexec/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../lib/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_7155c.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7155c.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f67a4.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f67a4.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -1975,16 +2046,16 @@ events:
         gcc version 15.2.0 (x86_64-mcf-seh-rev0, Built by MinGW-Builds project) 
         COMPILER_PATH=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../libexec/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../lib/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7155c.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_7155c.'
-         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccod9vZn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_7155c.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_7155c.dir/objects.a --no-whole-archive --out-implib libcmTC_7155c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f67a4.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_f67a4.'
+         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccWwpWSi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_f67a4.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f67a4.dir/objects.a --no-whole-archive --out-implib libcmTC_f67a4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccod9vZn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_7155c.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_7155c.dir/objects.a --no-whole-archive --out-implib libcmTC_7155c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccWwpWSi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_f67a4.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f67a4.dir/objects.a --no-whole-archive --out-implib libcmTC_f67a4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7155c.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_7155c.'
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7155c.dir/objects.a
-        D:\\forNuitka\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_7155c.dir/objects.a @CMakeFiles\\cmTC_7155c.dir\\objects1.rsp
-        D:\\forNuitka\\mingw64\\bin\\gcc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_7155c.dir/objects.a -Wl,--no-whole-archive -o cmTC_7155c.exe -Wl,--out-implib,libcmTC_7155c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f67a4.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_f67a4.'
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f67a4.dir/objects.a
+        D:\\forNuitka\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_f67a4.dir/objects.a @CMakeFiles\\cmTC_f67a4.dir\\objects1.rsp
+        D:\\forNuitka\\mingw64\\bin\\gcc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_f67a4.dir/objects.a -Wl,--no-whole-archive -o cmTC_f67a4.exe -Wl,--out-implib,libcmTC_f67a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa'
         
       exitCode: 0
   -
@@ -1992,7 +2063,7 @@ events:
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -2012,18 +2083,18 @@ events:
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2']
+        ignore line: [Change Dir: 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7155c/fast]
-        ignore line: [D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7155c.dir\\build.make CMakeFiles/cmTC_7155c.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srfwv2']
-        ignore line: [Building C object CMakeFiles/cmTC_7155c.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\forNuitka\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f67a4/fast]
+        ignore line: [D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f67a4.dir\\build.make CMakeFiles/cmTC_f67a4.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-srswwa']
+        ignore line: [Building C object CMakeFiles/cmTC_f67a4.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\forNuitka\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2031,8 +2102,8 @@ events:
         ignore line: [Thread model: mcf]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.0 (x86_64-mcf-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7155c.dir\\']
-        ignore line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_7155c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccfFLmCK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f67a4.dir\\']
+        ignore line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_f67a4.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccdEKfEE.s]
         ignore line: [GNU C23 (x86_64-mcf-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2049,8 +2120,8 @@ events:
         ignore line: [ D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: cefa2ebeb692ed00af38e59eabc88438]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7155c.dir\\']
-        ignore line: [ D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccfFLmCK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f67a4.dir\\']
+        ignore line: [ D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccdEKfEE.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [D:/forNuitka/mingw64/bin/../libexec/gcc/]
@@ -2061,9 +2132,9 @@ events:
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_7155c.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_7155c.exe]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7155c.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f67a4.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f67a4.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f67a4.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2081,13 +2152,13 @@ events:
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7155c.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_7155c.']
-        link line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccod9vZn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_7155c.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_7155c.dir/objects.a --no-whole-archive --out-implib libcmTC_7155c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f67a4.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_f67a4.']
+        link line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccWwpWSi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_f67a4.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f67a4.dir/objects.a --no-whole-archive --out-implib libcmTC_f67a4.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccod9vZn.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccWwpWSi.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -2116,7 +2187,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_7155c.exe] ==> ignore
+          arg [cmTC_f67a4.exe] ==> ignore
           arg [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2127,10 +2198,10 @@ events:
           arg [-LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_7155c.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_f67a4.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_7155c.dll.a] ==> ignore
+          arg [libcmTC_f67a4.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2185,7 +2256,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-mcf-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-v"
       
@@ -2195,7 +2266,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-mcf-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-V"
       
@@ -2205,7 +2276,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-mcf-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "--version"
       
@@ -2214,12 +2285,12 @@ events:
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x"
-      binary: "D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x"
+      source: "D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o"
+      binary: "D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2229,13 +2300,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x'
+        Change Dir: 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_596e7/fast
-        D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_596e7.dir\\build.make CMakeFiles/cmTC_596e7.dir/build
-        mingw32-make[1]: Entering directory 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x'
-        Building CXX object CMakeFiles/cmTC_596e7.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\forNuitka\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_76fa6/fast
+        D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_76fa6.dir\\build.make CMakeFiles/cmTC_76fa6.dir/build
+        mingw32-make[1]: Entering directory 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o'
+        Building CXX object CMakeFiles/cmTC_76fa6.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\forNuitka\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -2243,8 +2314,8 @@ events:
         Thread model: mcf
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (x86_64-mcf-seh-rev0, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_596e7.dir\\'
-         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_596e7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPwLzjH.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_76fa6.dir\\'
+         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_76fa6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccp9p8Wy.s
         GNU C++17 (x86_64-mcf-seh-rev0, Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
         
@@ -2267,14 +2338,14 @@ events:
          D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 61de8c4d747942bd598ac96411382eff
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_596e7.dir\\'
-         D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPwLzjH.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_76fa6.dir\\'
+         D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccp9p8Wy.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../libexec/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../lib/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_596e7.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_596e7.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_76fa6.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_76fa6.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2285,16 +2356,16 @@ events:
         gcc version 15.2.0 (x86_64-mcf-seh-rev0, Built by MinGW-Builds project) 
         COMPILER_PATH=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../libexec/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/forNuitka/mingw64/bin/../lib/gcc/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_596e7.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_596e7.'
-         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccaDXYyl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_596e7.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_596e7.dir/objects.a --no-whole-archive --out-implib libcmTC_596e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76fa6.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_76fa6.'
+         D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPU0cVe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_76fa6.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_76fa6.dir/objects.a --no-whole-archive --out-implib libcmTC_76fa6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccaDXYyl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_596e7.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_596e7.dir/objects.a --no-whole-archive --out-implib libcmTC_596e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPU0cVe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_76fa6.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_76fa6.dir/objects.a --no-whole-archive --out-implib libcmTC_76fa6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_596e7.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_596e7.'
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_596e7.dir/objects.a
-        D:\\forNuitka\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_596e7.dir/objects.a @CMakeFiles\\cmTC_596e7.dir\\objects1.rsp
-        D:\\forNuitka\\mingw64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_596e7.dir/objects.a -Wl,--no-whole-archive -o cmTC_596e7.exe -Wl,--out-implib,libcmTC_596e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76fa6.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_76fa6.'
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_76fa6.dir/objects.a
+        D:\\forNuitka\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_76fa6.dir/objects.a @CMakeFiles\\cmTC_76fa6.dir\\objects1.rsp
+        D:\\forNuitka\\mingw64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_76fa6.dir/objects.a -Wl,--no-whole-archive -o cmTC_76fa6.exe -Wl,--out-implib,libcmTC_76fa6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o'
         
       exitCode: 0
   -
@@ -2302,7 +2373,7 @@ events:
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -2328,18 +2399,18 @@ events:
     backtrace:
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x']
+        ignore line: [Change Dir: 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_596e7/fast]
-        ignore line: [D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_596e7.dir\\build.make CMakeFiles/cmTC_596e7.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/C_C++/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-meq53x']
-        ignore line: [Building CXX object CMakeFiles/cmTC_596e7.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\forNuitka\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/forNuitka/mingw64/bin/mingw32-make.exe -f Makefile cmTC_76fa6/fast]
+        ignore line: [D:/forNuitka/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_76fa6.dir\\build.make CMakeFiles/cmTC_76fa6.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/projects/Oak-16x/build/CMakeFiles/CMakeScratch/TryCompile-djoe2o']
+        ignore line: [Building CXX object CMakeFiles/cmTC_76fa6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\forNuitka\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2347,8 +2418,8 @@ events:
         ignore line: [Thread model: mcf]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.0 (x86_64-mcf-seh-rev0  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_596e7.dir\\']
-        ignore line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_596e7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPwLzjH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_76fa6.dir\\']
+        ignore line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -U_REENTRANT D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_76fa6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\Hao\\AppData\\Local\\Temp\\ccp9p8Wy.s]
         ignore line: [GNU C++17 (x86_64-mcf-seh-rev0  Built by MinGW-Builds project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2371,8 +2442,8 @@ events:
         ignore line: [ D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 61de8c4d747942bd598ac96411382eff]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_596e7.dir\\']
-        ignore line: [ D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPwLzjH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_76fa6.dir\\']
+        ignore line: [ D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Hao\\AppData\\Local\\Temp\\ccp9p8Wy.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [D:/forNuitka/mingw64/bin/../libexec/gcc/]
@@ -2383,9 +2454,9 @@ events:
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_596e7.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_596e7.exe]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_596e7.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_76fa6.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_76fa6.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_76fa6.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\forNuitka\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2403,13 +2474,13 @@ events:
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_596e7.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_596e7.']
-        link line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccaDXYyl.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_596e7.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_596e7.dir/objects.a --no-whole-archive --out-implib libcmTC_596e7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76fa6.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_76fa6.']
+        link line: [ D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPU0cVe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_76fa6.exe D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/forNuitka/mingw64/bin/../lib/gcc -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_76fa6.dir/objects.a --no-whole-archive --out-implib libcmTC_76fa6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/forNuitka/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccaDXYyl.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Hao\\AppData\\Local\\Temp\\ccPU0cVe.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2438,7 +2509,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_596e7.exe] ==> ignore
+          arg [cmTC_76fa6.exe] ==> ignore
           arg [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2449,10 +2520,10 @@ events:
           arg [-LD:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [D:/forNuitka/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_596e7.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_76fa6.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_596e7.dll.a] ==> ignore
+          arg [libcmTC_76fa6.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2506,7 +2577,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-mcf-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-v"
       
@@ -2516,7 +2587,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-mcf-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "-V"
       
@@ -2526,7 +2597,7 @@ events:
       - "D:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "D:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-mcf-seh-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-mcf-seh-ucrt-rt_v13-rev0/mingw64/bin/ld.exe" "--version"
       

@@ -5,7 +5,7 @@
 #define MyAppName "Oak-16"
 #define MyAppVersion "2.1"
 #define MyAppPublisher "甜瓜工作室"
-#define MyAppURL "https://www.example.com/"
+#define MyAppURL "https://www.melon.org/"
 #define MyAppExeName "OAK16.exe"
 
 [Setup]

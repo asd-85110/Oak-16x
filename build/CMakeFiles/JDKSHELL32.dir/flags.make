@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -finput-charset=UTF-8 -fexec-charset=GBK
+CXX_FLAGS = -O3 -DNDEBUG
 
