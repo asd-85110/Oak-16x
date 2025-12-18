@@ -1,0 +1,26 @@
+{
+    "editor.rulers": [
+        {
+            "column":148,
+            "color":"#00ff00"
+        },
+        {
+            "column":158,
+            "color":"#ff0000"
+        }
+    ],
+    "[cpp]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false
+    },
+    "files.autoGuessEncoding": true,
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "MinGW Makefiles",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.dimInactiveRegions": true,
+    "cmake.sourceDirectory": "D:/C_C++/Console/CMake"
+}
