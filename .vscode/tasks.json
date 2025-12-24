@@ -55,34 +55,67 @@
             "command": "configure",
             "problemMatcher": [],
             "detail": "CMake 模板 配置 任务",
-            "group": "build"
-        },
-        {
-            "type": "cmake",
-            "label": "CMake: 生成",
-            "command": "build",
-            "targets": [
-                "all"
-            ],
-            "group": "build",
-            "problemMatcher": [],
-            "detail": "CMake 模板 生成 任务"
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "type": "cmake",
             "label": "CMake: 安装",
             "command": "install",
             "problemMatcher": [],
-            "detail": "CMake 模板 安装 任务",
-            "group": "build"
+            "detail": "CMake 模板 安装 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: 包",
+            "command": "package",
+            "problemMatcher": [],
+            "detail": "CMake 模板 包 任务"
         },
         {
             "type": "cmake",
             "label": "CMake: 测试",
             "command": "test",
             "problemMatcher": [],
-            "detail": "CMake 模板 测试 任务",
-            "group": "build"
+            "detail": "CMake 模板 测试 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: 工作流",
+            "command": "workflow",
+            "problemMatcher": [],
+            "detail": "CMake 模板 工作流 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: 清理",
+            "command": "clean",
+            "problemMatcher": [],
+            "detail": "CMake 模板 清理 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: 清理重新生成",
+            "command": "cleanRebuild",
+            "targets": [
+                "OAK-16"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 清理重新生成 任务"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: 生成",
+            "command": "build",
+            "targets": [
+                "OAK-16"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 生成 任务"
         }
     ]
 }

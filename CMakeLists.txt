@@ -4,7 +4,6 @@ project(Oak-16x)
 
 link_directories(D:/forNuitka/mingw64/lib)
 
-
 set(CMAKE_C_COMPILER D:/forNuitka/mingw64/bin/gcc.exe)
 set(CMAKE_CXX_COMPILER D:/forNuitka/mingw64/bin/g++.exe)
 set(EXECUTABLE_OUTPUT_PATH ./../Release)
