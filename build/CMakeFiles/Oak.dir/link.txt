@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\Oak.dir/objects.a
+D:\forNuitka\mingw64\bin\ar.exe qc CMakeFiles\Oak.dir/objects.a @CMakeFiles\Oak.dir\objects1.rsp
+D:\forNuitka\mingw64\bin\g++.exe  -finput-charset=UTF-8 -fexec-charset=GBK -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\Oak.dir/objects.a -Wl,--no-whole-archive -o D:\projects\Oak-16x\Release\Oak.exe -Wl,--out-implib,D:\projects\Oak-16x\Release\libOak.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Oak.dir\linkLibs.rsp
