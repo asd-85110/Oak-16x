@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "4.0.0"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Oak::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Oak-Release-30400d75c7118d19d8d6.json",
+					"jsonFile" : "target-Oak-1ab5b1e2df27eeac5386.json",
 					"name" : "Oak",
 					"projectIndex" : 0
 				}
